@@ -2,6 +2,7 @@
 #include<locale.h>
 
 int main (){
+	int idade;
 	setlocale(LC_ALL, "");
-	printf("Olá, tudo bem?!\n");
+	scanf("%d", &idade);
 }
